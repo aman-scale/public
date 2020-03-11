@@ -1,4 +1,4 @@
-## Sample Python code for 4 common NLPC Task types
+## Sample Python code for 5 common NLPC Task types
 
 While the docs are being updated etc and don't include actual screenshots of what the tasks look like, here is sample code (along with screenshots) that you can use as a quick reference.
 
