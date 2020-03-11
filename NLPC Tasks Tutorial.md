@@ -19,7 +19,6 @@ API Endpoint: Categorization
 ![](https://public-demo-data.s3.us-east-2.amazonaws.com/demos/rooms/audiocat.png "5e67e4c5b6d22f00100cd7e3")
 
 ###### What a Website Categorization task looks like:
-(Better to use text categorization and embed the website in a Markdown text)
 ![](https://public-demo-data.s3.us-east-2.amazonaws.com/demos/rooms/webcat.png "5e67ebd8e8114c0017a35bcb")
 
 #### Code
@@ -90,9 +89,6 @@ print(task_request.json())
 ```
 
 
-```python
-
-```
 
 ### 2. Categorizing Text
 
@@ -167,11 +163,6 @@ task_request = requests.post(
     auth=("YOUR API KEY", ""),
 )
 print(task_request.json())
-```
-
-
-```python
-
 ```
 
 ### 3. Named Entity Recognition (NER)
@@ -278,9 +269,6 @@ print ("\n")
 ```
 
 
-```python
-
-```
 
 ### 5. OCR Transcription
 
