@@ -11,15 +11,15 @@ API Endpoint: Categorization
 ![](https://public-demo-data.s3.us-east-2.amazonaws.com/demos/rooms/walmart/imagecat.png "5e61534801f97b0011277e6e")
 
 ###### What an Video Categorization task looks like:
-(Works for video FILES, not Youtube urls etc - use text categorization for that)
+(The attachment URL must point directly to a file as opposed to a website like Youtube. A good way to know is if the URL ends in .mp4, .mov, or similar. Hosting movie files in S3 works great)
 ![](https://public-demo-data.s3.us-east-2.amazonaws.com/demos/videocat.png "5e67e303b6d22f00100cd578")
 
 ###### What an Audio Categorization task looks like:
-
+(Use an audio file URL that ends in .wav etc)
 ![](https://public-demo-data.s3.us-east-2.amazonaws.com/demos/rooms/audiocat.png "5e67e4c5b6d22f00100cd7e3")
 
 ###### What a Website Categorization task looks like:
-(Better to use text categorization and embed the website using Markdown)
+(Better to use text categorization and embed the website in a Markdown text)
 ![](https://public-demo-data.s3.us-east-2.amazonaws.com/demos/rooms/webcat.png "5e67ebd8e8114c0017a35bcb")
 
 #### Code
